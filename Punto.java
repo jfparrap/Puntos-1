@@ -43,9 +43,8 @@ public class Punto{
     System.out.println("*horizontal: ");
     this.x+=s.nextInt();
   }
-  public void vert(){
-    System.out.println("*vertical: ");
-    this.y+=s.nextInt();
+  public void vert(int d){
+    this.y+=d;
   }
   public void diag(Punto b){
     System.out.println("*diagonal: ");
